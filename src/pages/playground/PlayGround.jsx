@@ -6,7 +6,7 @@ const PlayGround = () => {
   const min = 1,
     max = 300;
 
-  const [arraySize, setArraySize] = useState(200);
+  const [arraySize, setArraySize] = useState(100);
   const [speed, setSpeed] = useState(90);
   const [array, setArray] = useState([]);
   const [algo, setAlgo] = useState("mergeSort");
